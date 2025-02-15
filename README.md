@@ -11,9 +11,7 @@ This is a **Movie App** where you can **explore, filter, and discover movies** e
 
 ## 🎥 Demo  
 
-👉   https://github.com/user-attachments/assets/d3551d6e-dd04-4ebc-8cd9-3b0cb8a3db5a
-
-
+👉 ![WhatsAppVideo2025-02-15at4 00 53PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/deeb02a5-d808-47bb-9bf2-a11a04019809)
 
 ## 🚀 Getting Started  
 
