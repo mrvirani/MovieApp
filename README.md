@@ -1,97 +1,58 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎬 Movie App  
 
-# Getting Started
+This is a **Movie App** where you can **explore, filter, and discover movies** effortlessly. 🚀  
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🌟 Features  
 
-## Step 1: Start Metro
+- 🎥 **Browse Movies by Year & Category** – Find movies based on release year and genre.  
+- 🔄 **Infinite Scrolling** – Scroll seamlessly in both directions.  
+- 🎭 **Filter by Genre & Popularity** – Sort and filter movies dynamically.  
+- ⚡ **Dynamic Data Loading** – Fetch real-time movie data from the API.  
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 🎥 Demo  
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+👉   https://github.com/user-attachments/assets/d3551d6e-dd04-4ebc-8cd9-3b0cb8a3db5a
 
-```sh
-# Using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Build and run your app
+## 🚀 Getting Started  
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+> **Note**: Ensure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.  
 
-### Android
+### Step 1: Install Dependencies  
 
 ```sh
-# Using npm
-npm run android
+npm install  
+# OR  
+yarn install  
+```  
 
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### Step 2: Run the App  
 
 ```sh
-bundle install
-```
+npx react-native run-android  
+# OR  
+npx react-native run-ios  
+```  
 
-Then, and every time you update your native dependencies, run:
+## 🔑 API Setup  
 
-```sh
-bundle exec pod install
-```
+1. Get a free API key from [TMDB](https://www.themoviedb.org/).  
+2. Create a `.env` file and add:  
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+   ```env
+   TMDB_API_KEY=your_api_key_here
+   ```  
 
-```sh
-# Using npm
-npm run ios
+## 📂 Tech Stack  
 
-# OR using Yarn
-yarn ios
-```
+- **React Native**  
+- **Redux Toolkit**  
+- **TMDB API**  
+- **Axios**  
+- **React Navigation**  
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+### ✨ Enjoy Browsing Movies! 🎬✨
 
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
