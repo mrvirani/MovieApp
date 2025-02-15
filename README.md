@@ -36,18 +36,13 @@ npx react-native run-ios
 ## 🔑 API Setup  
 
 1. Get a free API key from [TMDB](https://www.themoviedb.org/).  
-2. Create a `.env` file and add:  
 
-   ```env
-   TMDB_API_KEY=your_api_key_here
-   ```  
 
 ## 📂 Tech Stack  
 
 - **React Native**  
-- **Redux Toolkit**  
 - **TMDB API**  
-- **Axios**  
+- **Fetch**  
 - **React Navigation**  
 
 ---
